@@ -1,0 +1,180 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.image-preview {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-preview img {
+  max-width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Top Right Watermark */
+.top-right {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  text-align: right;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.top-right .timemark {
+    font-size: 2.3rem;
+    line-height: 1.5;
+}
+
+.top-right .timemark .first {
+  color: #ffcc00;
+}
+
+.top-right .timemark .second {
+  color: #fff;
+}
+
+.top-right .subtitle {
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+
+/* Button */
+.download-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.name{
+  font-size: 38px;
+    font-weight: bold;
+    color: #211f1f;
+    text-shadow: -2px -2px 0 white, -1px -2px 0 white, 0px -2px 0 white, 1px -2px 0 white, 2px -2px 0 white, -2px -1px 0 white, 2px -1px 0 white, -2px 0px 0 white, 2px 0px 0 white, -2px 1px 0 white, 2px 1px 0 white, -2px 2px 0 white, -1px 2px 0 white, 0px 2px 0 white, 1px 2px 0 white, 2px 2px 0 white;
+    margin-bottom: 5px;
+}
+.description{
+  font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.metadata{
+  border-left: 3px solid #ffcc00cc;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.date, .address, .gps, .compass, .note{
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.3px;
+}
+.note{
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    color: white;
+    padding:  8px;
+    border-radius: 4px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+/* Bottom Left Watermark */
+.bottom-left {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  color: white;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  max-width: 60%;
+}
+
+.bottom-left .code {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    color: rgb(221 220 220 / 70%);
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    border-top: 1px solid rgb(221 220 220 / 70%);
+    width: fit-content;
+    padding-top: 10px;
+}
+
+
+.bottom-left .code .icon {
+  margin-right: 6px;
+  height: 20px;
+  width: 20px;
+}
+
+.bottom-left .code .photo {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.mb{
+  margin-bottom: 15px;
+}
+.vertical-text-container{
+    position: absolute;
+    right: 11px;
+    top: 40%;
+    transform: translateY(-50%) rotate(270deg);
+    transform-origin: right center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+    white-space: nowrap;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+}
