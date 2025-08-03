@@ -92,7 +92,7 @@ h1 {
   font-size: 38px;
     font-weight: bold;
     color: #211f1f;
-    text-shadow: -2px -2px 0 white, -1px -2px 0 white, 0px -2px 0 white, 1px -2px 0 white, 2px -2px 0 white, -2px -1px 0 white, 2px -1px 0 white, -2px 0px 0 white, 2px 0px 0 white, -2px 1px 0 white, 2px 1px 0 white, -2px 2px 0 white, -1px 2px 0 white, 0px 2px 0 white, 1px 2px 0 white, 2px 2px 0 white;
+    text-shadow: -2px -2px 4px white, -1px -2px 4px white, 0px -2px 4px white, 1px -2px 4px white, 2px -2px 4px white, -2px -1px 4px white, 2px -1px 4px white, -2px 0px 4px white, 2px 0px 4px white, -2px 1px 4px white, 2px 1px 4px white, -2px 2px 4px white, -1px 2px 4px white, 0px 2px 4px white, 1px 2px 4px white, 2px 2px 4px white;
     margin-bottom: 5px;
 }
 .description{
@@ -120,6 +120,7 @@ h1 {
     border-radius: 4px;
     font-weight: 400;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 
